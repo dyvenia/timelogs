@@ -8,7 +8,7 @@ Purpose: allow newcomers to create a simple app on their machine as a task durin
 1. Install
 [`vs code`](https://code.visualstudio.com/download)  
 2. Install  
-['nodeJS'](https://tubemint.com/install-nodejs-npm-npx-yarn/)
+[`nodeJS`](https://tubemint.com/install-nodejs-npm-npx-yarn/)
 3. Create app folder user/my_test_app  
 4. Open terminal  
 5. Change directory to your folder  
