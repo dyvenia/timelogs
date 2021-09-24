@@ -1,0 +1,22 @@
+id: Calendar
+type: PageHeaderMenu
+properties:
+  title: Calendar
+areas:
+  content:
+    justify: center
+    blocks:
+      - id: content_card
+        type: Card
+        style:
+          maxWidth: 800
+        blocks:
+          - id: Pick a date, please
+            type: DateTimeSelector
+            properties:
+              disabledDates:
+                dates: []
+                ranges: []
+              placeholder:
+                - Start Date
+                - End Date

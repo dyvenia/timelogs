@@ -1,0 +1,18 @@
+id: User
+type: PageHeaderMenu
+properties:
+  title: Personpicker
+areas:
+  content:
+    justify: center
+    blocks:
+      - id: content_card
+        type: Card
+        style:
+          maxWidth: 800
+        blocks:
+          - id: Person
+            type: AutoComplete
+            properties: 
+              options: [Weronika Bien, Valeria Perluzzo, Jedrzej Korbicki]
+

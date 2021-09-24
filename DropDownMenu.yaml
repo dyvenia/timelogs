@@ -1,0 +1,27 @@
+id: List
+type: PageHeaderMenu
+properties:
+  title: List
+areas:
+  content:
+    justify: center
+    blocks:
+      - id: content_card
+        type: Card
+        style:
+          maxWidth: 800
+        blocks:
+          - id: Dropdown List
+            type: MultipleSelector
+            properties: 
+              options:
+                - label: First
+                  value: 1
+                  disabled: false
+                  filterString: null
+                  style: null
+                - label: Second
+                  value: 2
+                  disabled: false
+                  filterString: null
+                  style: null
